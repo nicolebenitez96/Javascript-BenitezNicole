@@ -1,0 +1,141 @@
+/*Index main*/
+.main1{
+    display:flex;
+    height: 100%;
+    padding: 25px;
+    background-image: $background-gradient;
+    justify-content: center;
+    align-items: center;
+
+    &-texto{
+        text-align: center;
+        width: 50%;
+    }
+
+    img{
+        width: 300px;
+        max-height: 300px;
+        object-fit: cover;
+    }
+}
+
+.main2{
+    display:flex;
+    height: $height-section;
+    background-color: #f7f6f6;
+    justify-content: space-evenly;
+    align-items: center;
+
+    .main2-opc{
+        width: 200px;
+        height: 200px;
+        text-align: center;
+        transition: 0.5s;
+
+        .main2-opc-body{
+            text-align: center;
+            padding-top: 10px;
+        }
+    }
+
+    .main2-opc:hover{
+        transform: scale(1.05, 1.05);
+    }
+
+}
+
+.main3{
+    display: flex;
+    height: 100%;
+    background-image: $background-gradient;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 25px;
+
+    &-texto{
+        text-align: center;
+        width: 50%;
+    }
+}
+
+.main4{
+    height: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &-boton{
+        color: black;
+        border-radius: 15px;
+        border: 1px solid black;
+        text-decoration: none;
+        text-align: center;
+        width: 130px;
+
+    }
+
+        .main4-boton:hover{
+            background-image: $background-gradient;
+        }
+    }
+
+
+.main5{
+    height: 200px;
+    background-image: $background-gradient;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 50px;
+
+    &-boton{
+        font-size: 20px;
+        color: black;
+        border-radius: 15px;
+        background-color: #f7f6f6;
+        width: 125px;
+        text-align: center;
+        text-decoration: none;
+    }
+
+        .main5-boton:hover{
+            background-image: $background-gradient;
+            border: 1px solid black;
+        }
+    
+
+    &-form{
+        margin-left: 0px;
+        width: 50%;
+    }
+
+}
+
+
+
+.newsletter{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+
+    &-boton{
+        color:black;
+        border-radius: 15px;
+        background-color: #f7f6f6;
+        text-decoration: none;
+        text-align: center;
+        width: 100px;
+    }
+    
+    .newsletter-boton:hover{
+            border: 1px solid black;
+            background-image: $background-gradient;
+        }
+    }
+
+
+
+/*Index main end*/

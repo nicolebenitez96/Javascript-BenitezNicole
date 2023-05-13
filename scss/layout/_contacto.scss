@@ -1,0 +1,59 @@
+/*Contacto main*/
+.contacto1{
+    height: $height-section;;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: $background-gradient;
+    gap: 50px;
+
+    &-imagen{
+        width: 25%;
+        height: 300px;
+        object-fit: cover;
+    }  
+    
+    &-texto{
+        width: 50%;
+        text-align: center;
+    }
+}
+
+.contacto2{
+    display: flex;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+
+    .contacto2-mapa{
+        width: 50%;
+        text-align: center;
+    }
+
+    .contacto2-form{
+        width: 50%;
+        text-align: center;
+
+        input{
+            width: 50%;
+        }
+
+        textarea{
+            width: 50%;
+            resize: none;
+        }
+
+        button{
+            border-radius: 15px;
+            width: 100px;
+            background-color: #f7f6f6;
+        }
+        button:hover{
+                background-image: $background-gradient;
+            }
+        }
+    }
+
+
+
+/*Contacto main end*/

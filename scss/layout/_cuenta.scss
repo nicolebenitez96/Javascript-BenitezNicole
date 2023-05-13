@@ -1,0 +1,146 @@
+/*Cuenta main*/
+.cuenta1{
+    height: $height-section;
+    background-image: $background-gradient;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    .cuenta1-imagen{
+        width: 25%;
+        height: 300px;
+    }
+
+    .cuenta1-texto{
+        width: 50%;
+        text-align: center;
+    }
+
+    .cuenta1-botones{
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    a{
+        text-decoration: none;
+        text-align: center;
+        color: black;
+        border-radius: 15px;
+        width: 130px;
+        background-color:#f7f6f6;
+    }
+    a:hover{
+            background-image: $background-gradient; 
+        }
+    }
+
+
+#form-registro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+
+    h2{
+        padding: 15px;
+    }
+}
+
+#form-iniciarsesion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+
+.form-registro-body{
+    display:flex;
+}
+
+.form-registro-1{
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    input{
+        width: 60%;
+    }
+}
+
+.form-registro-2{
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    input{
+        width: 60%;
+    }
+
+    button{
+        border-radius: 15px;
+        width: 100px;
+        background-color: #f7f6f6;
+    }
+
+    button:hover{
+        background-image: $background-gradient;
+    }
+}
+
+
+.botones button{
+    border-radius: 15px;
+    width: 100px;
+    background-color: #f7f6f6;
+}
+
+.botones button:hover{
+        background-image: $background-gradient;
+}
+
+
+/*Activa y desactiva los forms de Registro/Iniciar sesión según la opción elegida*/
+#form-registro{
+    display:none;
+    background: #f7f6f6;
+}
+
+#form-registro:target{
+        display: flex;
+}
+
+
+#form-iniciarsesion{
+    display:none;
+    background:#f7f6f6;
+    height: 200px;}
+
+#form-iniciarsesion:target{
+        display:flex;
+}
+
+
+#sesion-iniciada{
+    display:none;
+    background: #f7f6f6;
+    height: 125px;
+
+    :target{
+        display: flex;
+    }
+
+    button{
+        position:relative;
+        left: 675px;
+        top:15px;
+    }
+}
+
+
+/*Cuenta main end*/

@@ -1,0 +1,154 @@
+/*Blog main*/
+
+.blog1{
+    height: $height-section;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: $background-gradient;
+    gap: 50px;
+
+    &-imagen{
+        width: 25%;
+        height: 300px; 
+    }
+
+    &-texto{
+        width: 50%;
+        text-align: center;
+    }
+}
+
+
+
+.blog2{
+    height: $height-section;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f7f6f6;
+    gap: 50px;
+
+    &-imagen{
+        width: 30%;
+        height: 300px;
+    }
+
+    &-texto{
+        width: 50%;
+        text-align: center;
+
+        a{
+            color: black;
+            font-weight: bold;
+            font-style: italic;
+            font-size: 20px;
+        }
+
+        .blog2-titulo{
+            text-decoration: none;
+            transition: 0.5s;
+        }
+        
+        .blog2-titulo:hover{
+            text-decoration:underline;
+        }
+    }
+}
+
+
+
+.blog3{
+    height: $height-section;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: $background-gradient;
+    gap: 50px;
+
+    &-imagen{
+        width: 25;
+        height: 300px;
+    }
+
+    &-texto{
+        width: 50%;
+        text-align: center;
+
+        a{
+            color: black;
+            font-weight: bold;
+            font-style: italic;
+            font-size: 20px;
+        }
+
+        .blog3-titulo{
+            text-decoration: none;
+            transition: 0.5s;
+        }
+        
+        .blog3-titulo:hover{
+            text-decoration:underline;
+        }
+    }
+}
+
+
+.blog4{
+    height: $height-section;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f7f6f6;
+    gap: 50px;
+
+    &-imagen{
+        width: 30%;
+        height: 300px;
+    }
+
+    &-texto{
+        width: 50%;
+        text-align: center;
+
+        a{
+            color: black;
+            font-weight: bold;
+            font-style: italic;
+            font-size: 20px;
+        }
+
+        .blog4-titulo{
+            text-decoration: none;
+            transition: 0.5s;
+        }
+        
+        .blog4-titulo:hover{
+            text-decoration:underline;
+        }
+    }
+}
+
+.blog-vermas{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    a{
+        color: black;
+        text-decoration: none;
+        width: 120px;
+        border-radius: 15px;
+        border: 1px solid black;
+        text-align: center;
+        background-color:#f7f6f6;
+    }
+        a:hover{
+            background-image: $background-gradient;
+        }
+    }
+
+
+
+/*Blog main end*/
