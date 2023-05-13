@@ -279,6 +279,7 @@
   height: 380px;
   background-image: linear-gradient(180deg, rgba(97, 61, 254, 0.5) 0%, rgba(251, 146, 237, 0.5) 100%);
   text-align: center;
+  padding: 25px;
 }
 .reviews .reviews-titulo {
   display: block;
@@ -297,7 +298,7 @@
   justify-content: center;
   align-items: center;
   background-color: #f7f6f6;
-  width: 18%;
+  width: 20%;
   padding: 25px;
   transition: 1s;
 }
@@ -454,14 +455,17 @@
   justify-content: center;
   background-image: linear-gradient(180deg, rgba(97, 61, 254, 0.5) 0%, rgba(251, 146, 237, 0.5) 100%);
   gap: 50px;
+  padding: 25px;
 }
 .blog1-imagen {
-  width: 25%;
-  height: 300px;
+  width: 40%;
+  height: 90%;
+  object-fit: cover;
 }
 .blog1-texto {
   width: 50%;
   text-align: center;
+  padding: 25px;
 }
 
 .blog2 {
@@ -470,11 +474,13 @@
   align-items: center;
   justify-content: center;
   background-color: #f7f6f6;
-  gap: 50px;
+  gap: 25px;
+  padding: 25px;
 }
 .blog2-imagen {
-  width: 30%;
-  height: 300px;
+  width: 40%;
+  height: 90%;
+  object-fit: cover;
 }
 .blog2-texto {
   width: 50%;
@@ -500,11 +506,13 @@
   align-items: center;
   justify-content: center;
   background-image: linear-gradient(180deg, rgba(97, 61, 254, 0.5) 0%, rgba(251, 146, 237, 0.5) 100%);
-  gap: 50px;
+  gap: 25px;
+  padding: 25px;
 }
 .blog3-imagen {
-  width: 25;
+  width: 40%;
   height: 300px;
+  object-fit: cover;
 }
 .blog3-texto {
   width: 50%;
@@ -530,11 +538,13 @@
   align-items: center;
   justify-content: center;
   background-color: #f7f6f6;
-  gap: 50px;
+  gap: 25px;
+  padding: 25px;
 }
 .blog4-imagen {
-  width: 30%;
+  width: 40%;
   height: 300px;
+  object-fit: cover;
 }
 .blog4-texto {
   width: 50%;
@@ -631,10 +641,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 25px;
+  padding: 25px;
 }
 .cuenta1 .cuenta1-imagen {
-  width: 25%;
+  width: 40%;
   height: 300px;
+  object-fit: cover;
 }
 .cuenta1 .cuenta1-texto {
   width: 50%;
@@ -761,12 +774,11 @@
     gap: 5px;
     display: block;
   }
-  .container {
-    gap: 5px;
-  }
   .container .navbar-brand {
-    margin: 0;
+    margin: auto;
+    display: flex;
     justify-content: center;
+    align-items: center;
   }
   .lista-mobile-btn {
     display: flex;
@@ -1103,9 +1115,6 @@
 /*Tablet*/
 @media screen and (min-width: 600px) and (max-width: 1023px) {
   /*Nav*/
-  #mobile {
-    display: none;
-  }
   .container {
     flex-direction: column;
   }
@@ -1145,6 +1154,46 @@
   }
   .sobre2-texto {
     width: 100%;
+  }
+  .reviews {
+    height: 100%;
+    padding: 25px;
+  }
+  .reviews .review-body {
+    width: 25%;
+  }
+  /*Tienda*/
+  .tienda-seccion1-imagen {
+    width: 100%;
+    padding: 25px;
+  }
+  /*Blog*/
+  .blog1 {
+    gap: 15px;
+    height: 100%;
+  }
+  .blog1-imagen {
+    width: 50%;
+    height: auto;
+  }
+  .blog2 {
+    height: 100%;
+  }
+  .blog3 {
+    height: 100%;
+  }
+  .blog3-imagen {
+    height: 90%;
+  }
+  .blog4 {
+    height: 100%;
+  }
+  .blog4-imagen {
+    height: 90%;
+  }
+  /*Cuenta*/
+  .cuenta1-imagen {
+    width: 50%;
   }
   /*Footer*/
 }

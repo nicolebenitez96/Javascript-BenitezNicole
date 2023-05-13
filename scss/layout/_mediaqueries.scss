@@ -10,11 +10,13 @@
     }
 
     .container {
-        gap: 5px;
+        // gap: 5px;
     
         .navbar-brand{
-            margin: 0;
+            margin: auto;
+            display:flex;
             justify-content: center;
+            align-items: center;
         }
     }
 
@@ -444,10 +446,6 @@
 @media screen and (min-width: 600px) and (max-width: 1023px){
 
     /*Nav*/ 
-    #mobile{
-        display:none;
-    }
-
     .container{
         flex-direction: column;
     }
@@ -499,6 +497,58 @@
         width:100%;
     }
 
+    .reviews{
+        height: 100%;
+        padding: 25px;
+
+    .review-body{
+        width: 25%;
+    }
+}
+
+    /*Tienda*/
+    .tienda-seccion1-imagen{
+        width: 100%;
+        padding: 25px;
+    }
+
+    /*Blog*/
+    .blog1{
+        gap: 15px;  
+        height: 100%;
+    }
+
+    .blog1-imagen{
+        width: 50%;
+        height: auto;
+    }
+
+    
+    .blog2{
+        height: 100%;
+    }
+
+    .blog3{
+        height: 100%;
+    }
+
+    .blog3-imagen{
+        height: 90%;
+    }
+
+    .blog4{
+        height: 100%;
+    }
+
+    .blog4-imagen{
+        height: 90%;
+    }
+
+
+    /*Cuenta*/
+    .cuenta1-imagen{
+        width: 50%;
+    }
 
     /*Footer*/
 

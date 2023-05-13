@@ -7,19 +7,20 @@
     justify-content: center;
     background-image: $background-gradient;
     gap: 50px;
+    padding: 25px;
 
     &-imagen{
-        width: 25%;
-        height: 300px; 
+        width: 40%;
+        height: 90%; 
+        object-fit: cover;
     }
 
     &-texto{
         width: 50%;
         text-align: center;
+        padding: 25px;
     }
 }
-
-
 
 .blog2{
     height: $height-section;
@@ -27,11 +28,14 @@
     align-items: center;
     justify-content: center;
     background-color: #f7f6f6;
-    gap: 50px;
+    gap: 25px;
+    padding: 25px;
 
     &-imagen{
-        width: 30%;
-        height: 300px;
+        width: 40%;
+        height: 90%;
+        object-fit: cover;
+        
     }
 
     &-texto{
@@ -64,11 +68,13 @@
     align-items: center;
     justify-content: center;
     background-image: $background-gradient;
-    gap: 50px;
+    gap: 25px;
+    padding: 25px;
 
     &-imagen{
-        width: 25;
+        width: 40%;
         height: 300px;
+        object-fit: cover;
     }
 
     &-texto{
@@ -100,11 +106,13 @@
     align-items: center;
     justify-content: center;
     background-color: #f7f6f6;
-    gap: 50px;
+    gap: 25px;
+    padding: 25px;
 
     &-imagen{
-        width: 30%;
+        width: 40%;
         height: 300px;
+        object-fit: cover;
     }
 
     &-texto{
