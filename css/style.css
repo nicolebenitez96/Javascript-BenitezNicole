@@ -48,6 +48,20 @@
   background-image: linear-gradient(180deg, rgba(97, 61, 254, 0.5) 0%, rgba(251, 146, 237, 0.5) 100%);
 }
 
+.lista-mobile-btn {
+  display: none;
+  border: none;
+  background: none;
+  background-color: #f7f6f6;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.navbar-lista {
+  position: relative;
+  display: block;
+}
+
 /*Header end*/
 /*Footer*/
 .footer-nav {
@@ -118,6 +132,9 @@
 .main2 .main2-opc .main2-opc-body {
   text-align: center;
   padding-top: 10px;
+}
+.main2 .main2-opc .main2-opc-body a {
+  color: black;
 }
 .main2 .main2-opc:hover {
   transform: scale(1.05, 1.05);
@@ -740,12 +757,29 @@
 /*Mobile*/
 @media screen and (min-width: 320px) and (max-width: 599px) {
   /*Nav*/
+  .nav {
+    gap: 5px;
+    display: block;
+  }
   .container {
-    flex-direction: column;
+    gap: 5px;
   }
   .container .navbar-brand {
     margin: 0;
     justify-content: center;
+  }
+  .lista-mobile-btn {
+    display: flex;
+  }
+  .lista-mobile {
+    display: none;
+    position: absolute;
+    background-color: #f7f6f6;
+    min-width: 160px;
+    z-index: 1;
+  }
+  .navbar-lista:hover .lista-mobile {
+    display: block;
   }
   .main1 {
     flex-direction: column;
@@ -1069,6 +1103,9 @@
 /*Tablet*/
 @media screen and (min-width: 600px) and (max-width: 1023px) {
   /*Nav*/
+  #mobile {
+    display: none;
+  }
   .container {
     flex-direction: column;
   }
@@ -1114,6 +1151,9 @@
 /*Desktop*/
 @media screen and (min-width: 1024px) and (max-width: 1800px) {
   /*Nav*/
+  #mobile {
+    display: none;
+  }
   /*Main-Index*/
   .main1 {
     gap: 50px;
